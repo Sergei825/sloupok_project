@@ -1,1 +1,7 @@
 h1 Hello, Rails!
+
+/ = form_tag admin_all_logs_path, method: :get do
+/   = text_field 'Пользователь'
+/   = text_field 'Пароль'
+/   = submit_tag 'Войти'
+
